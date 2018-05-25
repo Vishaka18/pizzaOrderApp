@@ -1,36 +1,5 @@
 // JavaScript source code
-//MenuList = {
-//    "PizzaMenu": [
-//        { "PizzaName": "Farmhouse Pizza", "price": "300" },
-//        { "PizzaName": "Margherrita Pizza", "price": "250" },
-//        { "PizzaName": "Clubhouse Pizzza", "price": "Jones" }
-//    ]
-//}
 
-//var PizzaMenu = [
-//    {
-//        "PizzaName": "Farmhouse Pizza",
-//        "price": "300"
-//    },
-//    {
-//        "PizzaName": "Margherrita Pizza",
-//        "price": "250"
-//    },
-//    {
-//        "PizzaName": "Clubhouse Pizza",
-//        "price": "325"
-//    }
-//];
-
-//function myFunction(arr) {
-//    var out = "";
-//    var i;
-//    for (i = 0; i < arr.length; i++) {
-//        out += 'pizza to be ordered: ' + arr[i].PizzaName + 'at' +
-//            arr[i].price + '<br>';
-//    }
-//    document.getElementById("id01").innerHTML = out;
-//}
 
 $(document).ready(function () {
     var PizzaMenu = JSON.parse(data);
@@ -62,41 +31,7 @@ $(document).ready(function () {
         $("#number").text(a);
     });
 
-    //console.log(parseInt(document.getElementById('number').value, 10));
    
- //function incrementValue()
-   // {
-     //   var value = parseInt(document.getElementById('number').value, 10);
-       // value = isNaN(value) ? 0 : value;
-       // value++;
-       // document.getElementById('number').value = value;
-    //}
-    //obj = JSON.parse(text);
-    //document.getElementById("demo").innerHTML =
-    //    obj.PizzaMenu[1].PizzaName + " " + obj.employees[1].price;
-    //var JSONObject = JSON.parse("{'PizzaName' : 1, 'price' : 2}");
-    //console.log(JSONObject.PizzaName);  // Prints '1'.
-
-    //var MenuList, x;
-    //x = MenuList["PizzaMenu.PizzaName"];
-    //document.getElementById("demo").innerHTML = x;
-
-    //var t = JSON.parse('{"name": "", "skills": "", "jobtitel": "Entwickler", "res_linkedin": "GwebSearch"}');
-    //alert(t['jobtitel'])
-
-    //var x;
-    //var t = JSON.parse(PizzaMenu);
-    //alert(t['PizzaName']);
-
-    //for (i = 0; i < PizzaMenu.length; i++) {
-    //    x += PizzaMenu[i].PizzaName + "<br>";
-    //}
-
-    //document.getElementById("demo").innerHTML = x;
-
-    //$.getJSON("server/pizza.json", function (json) {
-    //    console.log("JSON Data: " + json.PizzaMenu.PizzaName[1]);
-    //});
 
    
 })
