@@ -1,0 +1,4 @@
+// JavaScript source code
+
+
+data = '[ { "PizzaName": "Farmhouse Pizza", "price": "300" }, { "PizzaName": "Margherrita Pizza", "price": "250" }, { "PizzaName": "Clubhouse Pizza", "price": "325" }]';
